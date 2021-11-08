@@ -2,9 +2,8 @@ using UnityEngine;
 
 public class GenericVariable<T> : ScriptableObject
 {
-#if UNITY_EDITOR
     [Multiline, SerializeField] private string DeveloperDescription = "";
-#endif
+
     /// <summary>
     /// Generic default value
     /// </summary>
